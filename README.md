@@ -6,4 +6,6 @@
 ## Code Changes
 
 The following config enables rate limiters and routes the traffic to backend instance which is a helloworld service.
-This app runs on `8080` port.
+This proxy runs on `8080` port and helloworld on `8081` port.
+
+To test, just run the standalone RunBatch 
